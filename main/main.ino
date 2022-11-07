@@ -1,9 +1,9 @@
-void setup() {
-  // put your setup code here, to run once:
+#include "lib.h"
 
+void setup() {
+  initLCD();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  printLCD(0,0,"LCD working!");
 }
