@@ -4,5 +4,7 @@
 
 void initLCD();
 void printLCD(int columnlcd, int rowlcd, String textlcd);
+void clearLCD();
+void initGlobal();
 
 #endif
