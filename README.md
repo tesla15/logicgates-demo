@@ -17,14 +17,12 @@ Demonstration of logic gates using ESP8266 / Arduino
 - Switching button mode (press | toggle)
 - Optimize code
 ## Connection instructions
-LCD - D1,D2
-
-Buttons - D5,D6,D7
-
-LED's - Not configured yet
+- LCD - D1,D2
+- Buttons - D5,D6,D7
+- LED's - Not configured yet
 
 ## Needed libraries
-Adafruit LCD
+- Adafruit LCD
 ## Authors
 
 - [@tesla15](https://www.github.com/tesla15)
