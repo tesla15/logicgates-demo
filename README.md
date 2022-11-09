@@ -22,6 +22,9 @@ LCD - D1,D2
 Buttons - D5,D6,D7
 
 LED's - Not configured yet
+
+## Needed libraries
+Adafruit LCD
 ## Authors
 
 - [@tesla15](https://www.github.com/tesla15)
