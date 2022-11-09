@@ -16,6 +16,7 @@ Demonstration of logic gates using ESP8266 / Arduino
 - OLED screen support (maybe)
 - Switching button mode (press | toggle)
 - Optimize code
+- Mini Games for better and easier learning
 ## Connection instructions
 - LCD - D1,D2
 - Buttons - D5,D6,D7
