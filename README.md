@@ -18,7 +18,7 @@ Demonstration of logic gates using ESP8266 / Arduino
 - Optimize code
 - Mini Games for better and easier learning
 ## Connection instructions
-- LCD - D1,D2
+- LCD 20x4 - D1,D2
 - Buttons - D5,D6,D7
 - LED's - Not configured yet
 
