@@ -24,8 +24,7 @@ Demonstration of logic gates using ESP8266 / Arduino
 
 ## Needed libraries
 - i2c LCD
-## Authors
+## Author
 
 - [@tesla15](https://www.github.com/tesla15)
-- [@arin2115](https://www.github.com/arin2115)
 
