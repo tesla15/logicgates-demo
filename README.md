@@ -9,13 +9,13 @@ Demonstration of logic gates using ESP8266 / Arduino
 
 
 ## Known Bugs
-- LCD Flickering (fixed partially)
+- LCD Flickering (fixed)
 ## To do in future
-- LED handler
+- LED handler | Done
 - Nokia 5510 screen support
 - OLED screen support (maybe)
 - Switching button mode (press | toggle)
-- Optimize code
+- Optimize code | Partially done
 - Mini Games for better and easier learning
 ## Connection instructions
 - LCD 20x4 - D1,D2
@@ -23,7 +23,7 @@ Demonstration of logic gates using ESP8266 / Arduino
 - LED's - Not configured yet
 
 ## Needed libraries
-- Adafruit LCD
+- i2c LCD
 ## Authors
 
 - [@tesla15](https://www.github.com/tesla15)

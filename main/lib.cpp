@@ -1,21 +1,36 @@
 #include "lib.h"
 #include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd(0x27, 16, 2);  
+LiquidCrystal_I2C lcd(0x27, 20, 4);  
 
 void bootloader() {
   lcd.clear();
-  for (int i = 2; i > 0; i--) {
-    printLCD(0, 0, "1010101010101010");
-    printLCD(0, 1, "0101010101010101");
-    delay(200);
-    printLCD(0, 1, "1010101010101010");
-    printLCD(0, 0, "0101010101010101");
-    delay(200);
-    lcd.clear();
-    printLCD(4,0,"made by");
-    printLCD(2,1,"Maciek Godek");
-  }
-  delay(1000);
+  printLCD(0,0,"01010101010101010101");
+  printLCD(0,1,"10101010101010101010");
+  printLCD(0,2,"01010101010101010101");
+  printLCD(0,3,"10101010101010101010");
+  delay(30);
+  lcd.clear();
+  printLCD(0,1,"01010101010101010101");
+  printLCD(0,0,"10101010101010101010");
+  printLCD(0,3,"01010101010101010101");
+  printLCD(0,2,"10101010101010101010");
+  delay(30);
+  lcd.clear();
+  printLCD(0,0,"01010101010101010101");
+  printLCD(0,1,"10101010101010101010");
+  printLCD(0,2,"01010101010101010101");
+  printLCD(0,3,"10101010101010101010");
+  delay(30);
+  lcd.clear();
+  printLCD(0,1,"01010101010101010101");
+  printLCD(0,0,"10101010101010101010");
+  printLCD(0,3,"01010101010101010101");
+  printLCD(0,2,"10101010101010101010");
+  delay(30);
+  lcd.clear();
+  printLCD(6,1,"made by");
+  printLCD(4,2,"Maciek Godek");
+  delay(2000);
   lcd.clear();
 }
 
@@ -24,6 +39,9 @@ void initGlobal() {
   pinMode(D7, INPUT_PULLUP);
   pinMode(D6, INPUT_PULLUP);
   pinMode(D5, INPUT_PULLUP);
+  pinMode(16, OUTPUT);
+  pinMode(D3, OUTPUT);
+  pinMode(D9, OUTPUT);
 }
 
 void initLCD() {
